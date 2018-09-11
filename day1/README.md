@@ -222,7 +222,7 @@ The *http* and *https* modules are powerful, but certainly not simplest ones out
 
 ## Exercises
 
-1. **Random joke**: Implement a script *jokes.js* that returns a random joke from the *The Internet Chuck Norris database*. 
+3. **Random joke**: Implement a script *jokes.js* that returns a random joke from the *The Internet Chuck Norris database*. 
 The documentation specifies:
 
 ```
@@ -235,7 +235,7 @@ http://api.icndb.com/jokes/random?firstName=John&lastName=Doe
 
 ```
 
-2. **Wiki pages**: Implement a script that given an input term, search for the (top 5) matching Wiki pages. For example:
+4. **Wiki pages**: Implement a script that given an input term, search for the (top 5) matching Wiki pages. For example:
 
 ```shell
 $ node wikisearch.js "Albert Einstein"

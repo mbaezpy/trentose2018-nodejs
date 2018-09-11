@@ -1,6 +1,6 @@
 /*
-* files.js
-* Example of synchronous access to files
+* files-async.js
+* Example of asynchronous access to files
 */
 
 // Loading the file system library

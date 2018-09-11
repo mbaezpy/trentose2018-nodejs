@@ -119,7 +119,7 @@ console.log("Program ended.");
 What is the difference now?.
 
 
-In this case readFile expects a *callback* function. These are very common in javascript libraries, and is the function that will be called when the method invoked realises its purpose (which can be one or multiple times). In this specific case, we also have an anonymous function, meaning a function that was declared on the spot (declared at runtime) and does not have names as typical functions.
+In this case readFile expects a *callback* function. These are very common in javascript libraries, and is the function that will be called when the method invoked realises its purpose (which can be one or multiple times). In this specific case, we also have an anonymous function, meaning a function that was declared on the spot (declared at runtime) and that unlike typical functions, it does not have a name.
 
 Later in the tutorial we'll have a look at *Promises*, which are a nicer looking alternatives to callback functions for asynchnous calls.
 
@@ -296,7 +296,7 @@ server.listen(port);
 
 ```
 
-Is it running? Now then let's open [http://localhost:3000](http://localhost:3000) in a browser.
+Is it running? Now then let's open [http://localhost:3000](http://localhost:3000) in a browser (`ctrl+c` in the terminal to end the execution).
 Let's try to inspect the contents of the request.headers.
 
 We won't go into detail into this way of creating a node server, as it is a bit low level. In the next class we'll dig into a popular web framework called Express.js.
@@ -304,5 +304,9 @@ We won't go into detail into this way of creating a node server, as it is a bit 
 ## Challenge:
 Can you create a service that tells Zlatan jokes? You can use a format similar to that of the Internet Chuck Norris Database. You can store your jokes in an array, in a file, or simply reuse the Chuck Norris Service.
 
+
+## References & further reading
+- https://nodejs.org/en/docs/guides/
+- https://nodejs.org/en/docs/guides/anatomy-of-an-http-transaction/
 
 

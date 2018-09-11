@@ -20,3 +20,5 @@ If you're using a package manager in your OS, you might find ports already avail
 
 ## Materials
 You'll find the materials for the lectures in the day* folders.
+
+

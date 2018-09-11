@@ -1,4 +1,4 @@
-## Exercises
+# Exercises
 Let's take 10 minutes to work on the following exercises. We do not expect you to finish both right now, so do as much as you can and leave the rest as homework. 
 
 1. **Implement evennumbers.js**, verying that the user provides the right number of parameters (2) and in the right format (numbers). 
@@ -19,6 +19,11 @@ $ node freq.js tags.txt
  Dog     3      
  Cat     1       
 ```
+
+Tips: 
+- Try to split the file contents by the newline character (\n)
+- Use the readline module ([suggestions from StackOverflow](https://stackoverflow.com/questions/6156501/read-a-file-one-line-at-a-time-in-node-js))
+
 
 3. **Random joke**: Implement a script *jokes.js* that returns a random joke from the *The Internet Chuck Norris database*. 
 The documentation specifies:

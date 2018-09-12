@@ -280,22 +280,22 @@ We then map CRUD (or CRUSD) operations to the standard HTTP verbs.
 
 
 | Operation | HTTP Verb    |   URI          |   Req body  | Resp body  |
-------------|-----------------------------------------------------------
-| Search    |  GET         | /products      |  Empty      | [Product+] 
-| Create    |  POST        | /products      |  Product    | Empty
-| Read      |  GET         | /products/:id  |  Empty      | Product
-| Update    |  PUT / PATCH | /products/:id  |  Product*   | Product
-| Delete    |  DELETE      | /products/:id  |  Empty      | Empty
+|-----------|--------------|----------------|-------------|------------|
+| Search    |  GET         | /products      |  Empty      | [Product+] |
+| Create    |  POST        | /products      |  Product    | Empty      |
+| Read      |  GET         | /products/:id  |  Empty      | Product    | 
+| Update    |  PUT / PATCH | /products/:id  |  Product*   | Product    |
+| Delete    |  DELETE      | /products/:id  |  Empty      | Empty      |
 
 
 This works pretty well with simple resources. More complex APIs will require special attention to the relationship between web resources, and ways of traversing the relationships. For example, to get the list of products associated to a user (`/user/:id/products`).
 
-Our challenge: Implementing the products API!
+Our challenge: Implementing the products API!. There is a stub implementation in `exercises/products-api`, which includes a simple client web app.
 
 
 ### Exercises
-
-1. Implement the web API for managing student registrations as specified here: https://www.studytonight.com/rest-web-service/designing-the-rest-api
+1. Finish implementing the Products API backend
+2. Implement the web API for managing student registrations as specified here: https://www.studytonight.com/rest-web-service/designing-the-rest-api
 
 
 ## References and further reading

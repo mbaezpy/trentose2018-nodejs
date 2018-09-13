@@ -297,6 +297,9 @@ Our challenge: Implementing the products API!. There is a stub implementation in
 1. Finish implementing the Products API backend
 2. Implement the web API for managing student registrations as specified here: https://www.studytonight.com/rest-web-service/designing-the-rest-api
 
+### Challenge
+Create the Zlatan service, replicating the functionality of the Chuck Norris Internet Database, and using Google Spreadsheet as you database. Tip: You can use the link a downloaded CSV file (File -> Download as -> Comma Separated Values) and transform it to json.
+
 
 ## References and further reading
 

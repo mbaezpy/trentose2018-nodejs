@@ -29,7 +29,20 @@ $(document).ready(function () {
         alert("Error: Could not delete element");      
       }
     })
-  })
+  });
+  
+  $(".opt-add").click(function(){
+    var data = {
+      name : $("#pname"),
+      description : $("#pdesc")
+    };
+    
+    Product.create(data, {
+      success : function(){
+        window.location.reload();
+      }
+    });
+  });
 
       
 });
@@ -39,7 +52,13 @@ var BASE_URL = "http://localhost:3000/api";
 var Product = {
   
   load : function (cb){    
-      $.getJSON(BASE_URL + "/products", cb.success).fail(cb.error);
+    $.getJSON(BASE_URL + "/products", cb.success).fail(cb.error);
+  },
+  
+  create : function(data){
+    
+    $.post(BASE_URL + "/products", data, cb.success, "json");    
+    
   },
   
   delete : function(id, cb){
